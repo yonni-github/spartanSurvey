@@ -1,0 +1,6 @@
+framework module Pods_SpartanSurvey {
+  umbrella header "Pods-SpartanSurvey-umbrella.h"
+
+  export *
+  module * { export * }
+}

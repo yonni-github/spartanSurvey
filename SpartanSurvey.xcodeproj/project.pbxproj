@@ -7,23 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C2317CEE9FA20743232317E /* Pods_SpartanSurvey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA2CD6DAFABFA5C8B110FF4 /* Pods_SpartanSurvey.framework */; };
+		840756D72087D0FC000C9652 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840756D62087D0FC000C9652 /* SignupViewController.swift */; };
 		84D91269208524A500F8EC86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D91268208524A500F8EC86 /* AppDelegate.swift */; };
-		84D9126B208524A500F8EC86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9126A208524A500F8EC86 /* ViewController.swift */; };
+		84D9126B208524A500F8EC86 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D9126A208524A500F8EC86 /* HomeViewController.swift */; };
 		84D9126E208524A500F8EC86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D9126C208524A500F8EC86 /* Main.storyboard */; };
 		84D91271208524A500F8EC86 /* SpartanSurvey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84D9126F208524A500F8EC86 /* SpartanSurvey.xcdatamodeld */; };
 		84D91273208524A500F8EC86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D91272208524A500F8EC86 /* Assets.xcassets */; };
 		84D91276208524A500F8EC86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D91274208524A500F8EC86 /* LaunchScreen.storyboard */; };
+		84D912922086ED4500F8EC86 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D912912086ED4500F8EC86 /* LoginViewController.swift */; };
+		84D912942087417A00F8EC86 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84D912932087417A00F8EC86 /* GoogleService-Info.plist */; };
+		C179F4142094466E00C2BE91 /* SurveyContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179F4132094466E00C2BE91 /* SurveyContent.swift */; };
+		C179F41620944C8600C2BE91 /* SurveyContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C179F41520944C8600C2BE91 /* SurveyContentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FE9CF75AA79CA40D53B455D /* Pods-SpartanSurvey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartanSurvey.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpartanSurvey/Pods-SpartanSurvey.release.xcconfig"; sourceTree = "<group>"; };
+		840756D62087D0FC000C9652 /* SignupViewController.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		84D91265208524A500F8EC86 /* SpartanSurvey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpartanSurvey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D91268208524A500F8EC86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84D9126A208524A500F8EC86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84D9126A208524A500F8EC86 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		84D9126D208524A500F8EC86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84D91270208524A500F8EC86 /* SpartanSurvey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SpartanSurvey.xcdatamodel; sourceTree = "<group>"; };
 		84D91272208524A500F8EC86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D91275208524A500F8EC86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D91277208524A500F8EC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D9127D208535CF00F8EC86 /* SpartanSurvey.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpartanSurvey.entitlements; sourceTree = "<group>"; };
+		84D912912086ED4500F8EC86 /* LoginViewController.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84D912932087417A00F8EC86 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9DA2CD6DAFABFA5C8B110FF4 /* Pods_SpartanSurvey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpartanSurvey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C179F4132094466E00C2BE91 /* SurveyContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyContent.swift; sourceTree = "<group>"; };
+		C179F41520944C8600C2BE91 /* SurveyContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyContentViewController.swift; sourceTree = "<group>"; };
+		D32A9F8AF930F6C316932991 /* Pods-SpartanSurvey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartanSurvey.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpartanSurvey/Pods-SpartanSurvey.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C2317CEE9FA20743232317E /* Pods_SpartanSurvey.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +58,8 @@
 			children = (
 				84D91267208524A500F8EC86 /* SpartanSurvey */,
 				84D91266208524A500F8EC86 /* Products */,
+				84D9127E208535D200F8EC86 /* Frameworks */,
+				F9E204546C72352197EEE695 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +74,38 @@
 		84D91267208524A500F8EC86 /* SpartanSurvey */ = {
 			isa = PBXGroup;
 			children = (
+				84D9127D208535CF00F8EC86 /* SpartanSurvey.entitlements */,
 				84D91268208524A500F8EC86 /* AppDelegate.swift */,
-				84D9126A208524A500F8EC86 /* ViewController.swift */,
+				84D9126A208524A500F8EC86 /* HomeViewController.swift */,
+				84D912912086ED4500F8EC86 /* LoginViewController.swift */,
+				840756D62087D0FC000C9652 /* SignupViewController.swift */,
+				C179F41520944C8600C2BE91 /* SurveyContentViewController.swift */,
+				C179F4132094466E00C2BE91 /* SurveyContent.swift */,
 				84D9126C208524A500F8EC86 /* Main.storyboard */,
 				84D91272208524A500F8EC86 /* Assets.xcassets */,
 				84D91274208524A500F8EC86 /* LaunchScreen.storyboard */,
 				84D91277208524A500F8EC86 /* Info.plist */,
 				84D9126F208524A500F8EC86 /* SpartanSurvey.xcdatamodeld */,
+				84D912932087417A00F8EC86 /* GoogleService-Info.plist */,
 			);
 			path = SpartanSurvey;
+			sourceTree = "<group>";
+		};
+		84D9127E208535D200F8EC86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2CD6DAFABFA5C8B110FF4 /* Pods_SpartanSurvey.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9E204546C72352197EEE695 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D32A9F8AF930F6C316932991 /* Pods-SpartanSurvey.debug.xcconfig */,
+				3FE9CF75AA79CA40D53B455D /* Pods-SpartanSurvey.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84D9127A208524A500F8EC86 /* Build configuration list for PBXNativeTarget "SpartanSurvey" */;
 			buildPhases = (
+				33D038491F9BA99C037570C2 /* [CP] Check Pods Manifest.lock */,
 				84D91261208524A500F8EC86 /* Sources */,
 				84D91262208524A500F8EC86 /* Frameworks */,
 				84D91263208524A500F8EC86 /* Resources */,
+				5254B6DAB0C06A68D3EAECDB /* [CP] Embed Pods Frameworks */,
+				B96C3A3CCA0DB9AF3EB5A447 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +144,14 @@
 					84D91264208524A500F8EC86 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -127,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84D91276208524A500F8EC86 /* LaunchScreen.storyboard in Resources */,
+				84D912942087417A00F8EC86 /* GoogleService-Info.plist in Resources */,
 				84D91273208524A500F8EC86 /* Assets.xcassets in Resources */,
 				84D9126E208524A500F8EC86 /* Main.storyboard in Resources */,
 			);
@@ -134,14 +187,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33D038491F9BA99C037570C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpartanSurvey-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5254B6DAB0C06A68D3EAECDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpartanSurvey/Pods-SpartanSurvey-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpartanSurvey/Pods-SpartanSurvey-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B96C3A3CCA0DB9AF3EB5A447 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpartanSurvey/Pods-SpartanSurvey-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpartanSurvey/Pods-SpartanSurvey-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84D91261208524A500F8EC86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D912922086ED4500F8EC86 /* LoginViewController.swift in Sources */,
 				84D91271208524A500F8EC86 /* SpartanSurvey.xcdatamodeld in Sources */,
-				84D9126B208524A500F8EC86 /* ViewController.swift in Sources */,
+				840756D72087D0FC000C9652 /* SignupViewController.swift in Sources */,
+				C179F4142094466E00C2BE91 /* SurveyContent.swift in Sources */,
+				84D9126B208524A500F8EC86 /* HomeViewController.swift in Sources */,
 				84D91269208524A500F8EC86 /* AppDelegate.swift in Sources */,
+				C179F41620944C8600C2BE91 /* SurveyContentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,14 +402,18 @@
 		};
 		84D9127B208524A500F8EC86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D32A9F8AF930F6C316932991 /* Pods-SpartanSurvey.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
 				INFOPLIST_FILE = SpartanSurvey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.sjsu.cmpe137G12.SpartanSurvey;
+				PRODUCT_BUNDLE_IDENTIFIER = sjsu.cmpe137G12.SpartanSurvey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -291,14 +421,18 @@
 		};
 		84D9127C208524A500F8EC86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE9CF75AA79CA40D53B455D /* Pods-SpartanSurvey.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WA6Y7KBQJ;
 				INFOPLIST_FILE = SpartanSurvey/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.sjsu.cmpe137G12.SpartanSurvey;
+				PRODUCT_BUNDLE_IDENTIFIER = sjsu.cmpe137G12.SpartanSurvey;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
